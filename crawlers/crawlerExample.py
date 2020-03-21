@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-class CrawlerExample: # TODO: Specify the class name in relation to the source or content of this dataset
+class CrawlerExample:  # TODO: Specify the class name in relation to the source or content of this dataset
     """
     Example class for a Child Crawler  # TODO: Change the description of this crawler
     """
@@ -19,3 +19,8 @@ class CrawlerExample: # TODO: Specify the class name in relation to the source o
         # TODO: Write the crawl job here
         print('crawl - crawl - crawl')
         return True
+
+
+if __name__ == '__main__':
+    c = CrawlerExample()  # TODO: Adapt Class Name
+    c.crawl()
