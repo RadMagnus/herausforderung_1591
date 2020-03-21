@@ -2,17 +2,21 @@
 
 import argparse
 
-from crawlers.crawlerExample import CrawlerExample
-# TODO: Add your Crawler Class here
+from crawlerExample import CrawlerExample
+from crawlerRKICaseData import CrawlerRKICaseData
+from crawlerDemography1 import CrawlerDemography1
 
 
 class MainCrawler:
     crawler_dict = [
         {
-            'class':     CrawlerExample,
+            'class':     CrawlerRKICaseData,
+            'frequency': 'daily'
+        },
+        {
+            'class': CrawlerDemography1,
             'frequency': 'once'
         },
-        # TODO: Add an entry for your Crawler Class here
     ]
 
     def __init__(self):
