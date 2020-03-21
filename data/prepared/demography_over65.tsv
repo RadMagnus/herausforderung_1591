@@ -1,414 +1,414 @@
-	IdLandkreis	Name	Fract_Over_65
-0	01001	Flensburg, kreisfreie Stadt	0.2
-1	01002	Kiel, kreisfreie Stadt	0.18
-2	01003	Lübeck, kreisfreie Stadt	0.23
-3	01004	Neumünster, kreisfreie Stadt	0.23
-4	01051	Dithmarschen, Landkreis	0.25
-5	01053	Herzogtum Lauenburg, Landkreis	0.22
-6	01054	Nordfriesland, Landkreis	0.24
-7	01055	Ostholstein, Landkreis	0.27
-8	01056	Pinneberg, Landkreis	0.22
-9	01057	Plön, Landkreis	0.26
-10	01058	Rendsburg-Eckernförde, Landkreis	0.23
-11	01059	Schleswig-Flensburg, Landkreis	0.24
-12	01060	Segeberg, Landkreis	0.22
-13	01061	Steinburg, Landkreis	0.23
-14	01062	Stormarn, Landkreis	0.23
-15	02000	Hamburg, kreisfreie Stadt	0.18
-16	03101	Braunschweig, kreisfreie Stadt	0.21
-17	03102	Salzgitter, kreisfreie Stadt	0.23
-18	03103	Wolfsburg, kreisfreie Stadt	0.22
-19	03151	Gifhorn, Landkreis	0.2
-20	03153	Goslar, Landkreis	0.27
-21	03154	Helmstedt, Landkreis	0.23
-22	03155	Northeim, Landkreis	0.25
-23	03157	Peine, Landkreis	0.21
-24	03158	Wolfenbüttel, Landkreis	0.23
-25	03159	Göttingen, Landkreis	0.22
-26	03241	Region Hannover, Landkreis	0.21
-27	03251	Diepholz, Landkreis	0.22
-28	03252	Hameln-Pyrmont, Landkreis	0.25
-29	03254	Hildesheim, Landkreis	0.23
-30	03255	Holzminden, Landkreis	0.26
-31	03256	Nienburg (Weser), Landkreis	0.22
-32	03257	Schaumburg, Landkreis	0.24
-33	03351	Celle, Landkreis	0.23
-34	03352	Cuxhaven, Landkreis	0.25
-35	03353	Harburg, Landkreis	0.22
-36	03354	Lüchow-Dannenberg, Landkreis	0.28
-37	03355	Lüneburg, Landkreis	0.2
-38	03356	Osterholz, Landkreis	0.23
-39	03357	Rotenburg (Wümme), Landkreis	0.21
-40	03358	Heidekreis	0.22
-41	03359	Stade, Landkreis	0.21
-42	03360	Uelzen, Landkreis	0.25
-43	03361	Verden, Landkreis	0.22
-44	03401	Delmenhorst, kreisfreie Stadt	0.22
-45	03402	Emden, kreisfreie Stadt	0.21
-46	03403	Oldenburg (Oldenburg), kreisfreie Stadt	0.19
-47	03404	Osnabrück, kreisfreie Stadt	0.19
-48	03405	Wilhelmshaven, kreisfreie Stadt	0.26
-49	03451	Ammerland, Landkreis	0.23
-50	03452	Aurich, Landkreis	0.23
-51	03453	Cloppenburg, Landkreis	0.16
-52	03454	Emsland, Landkreis	0.19
-53	03455	Friesland, Landkreis	0.26
-54	03456	Grafschaft Bentheim, Landkreis	0.2
-55	03457	Leer, Landkreis	0.21
-56	03458	Oldenburg, Landkreis	0.21
-57	03459	Osnabrück, Landkreis	0.2
-58	03460	Vechta, Landkreis	0.16
-59	03461	Wesermarsch, Landkreis	0.23
-60	03462	Wittmund, Landkreis	0.24
-61	04011	Bremen, kreisfreie Stadt	0.21
-62	04012	Bremerhaven, kreisfreie Stadt	0.22
-63	05111	Düsseldorf, kreisfreie Stadt	0.19
-64	05112	Duisburg, kreisfreie Stadt	0.2
-65	05113	Essen, kreisfreie Stadt	0.22
-66	05114	Krefeld, kreisfreie Stadt	0.22
-67	05116	Mönchengladbach, kreisfreie Stadt	0.21
-68	05117	Mülheim an der Ruhr, kreisfreie Stadt	0.24
-69	05119	Oberhausen, kreisfreie Stadt	0.22
-70	05120	Remscheid, kreisfreie Stadt	0.22
-71	05122	Solingen, kreisfreie Stadt	0.21
-72	05124	Wuppertal, kreisfreie Stadt	0.21
-73	05154	Kleve, Landkreis	0.2
-74	05158	Mettmann, Landkreis	0.24
-75	05162	Rhein-Kreis Neuss	0.22
-76	05166	Viersen, Landkreis	0.22
-77	05170	Wesel, Landkreis	0.23
-78	05314	Bonn, kreisfreie Stadt	0.18
-79	05315	Köln, kreisfreie Stadt	0.17
-80	05316	Leverkusen, kreisfreie Stadt	0.22
-81	05334	Städteregion Aachen, Landkreis	0.2
-82	05358	Düren, Landkreis	0.21
-83	05362	Rhein-Erft-Kreis	0.21
-84	05366	Euskirchen, Landkreis	0.21
-85	05370	Heinsberg, Landkreis	0.21
-86	05374	Oberbergischer Kreis	0.21
-87	05378	Rheinisch-Bergischer Kreis	0.23
-88	05382	Rhein-Sieg-Kreis	0.21
-89	05512	Bottrop, kreisfreie Stadt	0.22
-90	05513	Gelsenkirchen, kreisfreie Stadt	0.21
-91	05515	Münster, kreisfreie Stadt	0.17
-92	05554	Borken, Landkreis	0.19
-93	05558	Coesfeld, Landkreis	0.2
-94	05562	Recklinghausen, Landkreis	0.22
-95	05566	Steinfurt, Landkreis	0.2
-96	05570	Warendorf, Landkreis	0.21
-97	05711	Bielefeld, kreisfreie Stadt	0.2
-98	05754	Gütersloh, Landkreis	0.19
-99	05758	Herford, Landkreis	0.22
-100	05762	Höxter, Landkreis	0.22
-101	05766	Lippe, Landkreis	0.22
-102	05770	Minden-Lübbecke, Landkreis	0.22
-103	05774	Paderborn, Landkreis	0.18
-104	05911	Bochum, kreisfreie Stadt	0.22
-105	05913	Dortmund, kreisfreie Stadt	0.2
-106	05914	Hagen, kreisfreie Stadt	0.22
-107	05915	Hamm, kreisfreie Stadt	0.21
-108	05916	Herne, kreisfreie Stadt	0.22
-109	05954	Ennepe-Ruhr-Kreis	0.24
-110	05958	Hochsauerlandkreis	0.22
-111	05962	Märkischer Kreis	0.22
-112	05966	Olpe, Landkreis	0.2
-113	05970	Siegen-Wittgenstein, Landkreis	0.21
-114	05974	Soest, Landkreis	0.21
-115	05978	Unna, Landkreis	0.23
-116	06411	Darmstadt, kreisfreie Stadt	0.17
-117	06412	Frankfurt am Main, kreisfreie Stadt	0.16
-118	06413	Offenbach am Main, kreisfreie Stadt	0.17
-119	06414	Wiesbaden, kreisfreie Stadt	0.2
-120	06431	Bergstraße, Landkreis	0.22
-121	06432	Darmstadt-Dieburg, Landkreis	0.21
-122	06433	Groß-Gerau, Landkreis	0.19
-123	06434	Hochtaunuskreis	0.23
-124	06435	Main-Kinzig-Kreis	0.21
-125	06436	Main-Taunus-Kreis	0.21
-126	06437	Odenwaldkreis	0.23
-127	06438	Offenbach, Landkreis	0.21
-128	06439	Rheingau-Taunus-Kreis	0.23
-129	06440	Wetteraukreis	0.21
-130	06531	Gießen, Landkreis	0.19
-131	06532	Lahn-Dill-Kreis	0.22
-132	06533	Limburg-Weilburg, Landkreis	0.21
-133	06534	Marburg-Biedenkopf, Landkreis	0.19
-134	06535	Vogelsbergkreis	0.24
-135	06611	Kassel, kreisfreie Stadt	0.2
-136	06631	Fulda, Landkreis	0.21
-137	06632	Hersfeld-Rotenburg, Landkreis	0.24
-138	06633	Kassel, Landkreis	0.25
-139	06634	Schwalm-Eder-Kreis	0.23
-140	06635	Waldeck-Frankenberg, Landkreis	0.23
-141	06636	Werra-Meißner-Kreis	0.25
-142	07111	Koblenz, kreisfreie Stadt	0.22
-143	07131	Ahrweiler, Landkreis	0.24
-144	07132	Altenkirchen (Westerwald), Landkreis	0.22
-145	07133	Bad Kreuznach, Landkreis	0.23
-146	07134	Birkenfeld, Landkreis	0.24
-147	07135	Cochem-Zell, Landkreis	0.24
-148	07137	Mayen-Koblenz, Landkreis	0.22
-149	07138	Neuwied, Landkreis	0.22
-150	07140	Rhein-Hunsrück-Kreis	0.22
-151	07141	Rhein-Lahn-Kreis	0.23
-152	07143	Westerwaldkreis	0.21
-153	07211	Trier, kreisfreie Stadt	0.18
-154	07231	Bernkastel-Wittlich, Landkreis	0.22
-155	07232	Eifelkreis Bitburg-Prüm	0.2
-156	07233	Vulkaneifel, Landkreis	0.24
-157	07235	Trier-Saarburg, Landkreis	0.2
-158	07311	Frankenthal (Pfalz), kreisfreie Stadt	0.23
-159	07312	Kaiserslautern, kreisfreie Stadt	0.2
-160	07313	Landau in der Pfalz, kreisfreie Stadt	0.19
-161	07314	Ludwigshafen am Rhein, kreisfreie Stadt	0.19
-162	07315	Mainz, kreisfreie Stadt	0.18
-163	07316	Neustadt an der Weinstraße, kreisfreie Stadt	0.24
-164	07317	Pirmasens, kreisfreie Stadt	0.25
-165	07318	Speyer, kreisfreie Stadt	0.22
-166	07319	Worms, kreisfreie Stadt	0.2
-167	07320	Zweibrücken, kreisfreie Stadt	0.23
-168	07331	Alzey-Worms, Landkreis	0.2
-169	07332	Bad Dürkheim, Landkreis	0.24
-170	07333	Donnersbergkreis	0.21
-171	07334	Germersheim, Landkreis	0.2
-172	07335	Kaiserslautern, Landkreis	0.21
-173	07336	Kusel, Landkreis	0.24
-174	07337	Südliche Weinstraße, Landkreis	0.23
-175	07338	Rhein-Pfalz-Kreis	0.22
-176	07339	Mainz-Bingen, Landkreis	0.2
-177	07340	Südwestpfalz, Landkreis	0.25
-178	08111	Stuttgart, kreisfreie Stadt	0.18
-179	08115	Böblingen, Landkreis	0.2
-180	08116	Esslingen, Landkreis	0.2
-181	08117	Göppingen, Landkreis	0.21
-182	08118	Ludwigsburg, Landkreis	0.2
-183	08119	Rems-Murr-Kreis	0.21
-184	08121	Heilbronn, kreisfreie Stadt	0.2
-185	08125	Heilbronn, Landkreis	0.19
-186	08126	Hohenlohekreis	0.19
-187	08127	Schwäbisch Hall, Landkreis	0.19
-188	08128	Main-Tauber-Kreis	0.22
-189	08135	Heidenheim, Landkreis	0.22
-190	08136	Ostalbkreis	0.2
-191	08211	Baden-Baden, kreisfreie Stadt	0.26
-192	08212	Karlsruhe, kreisfreie Stadt	0.18
-193	08215	Karlsruhe, Landkreis	0.21
-194	08216	Rastatt, Landkreis	0.21
-195	08221	Heidelberg, kreisfreie Stadt	0.16
-196	08222	Mannheim, kreisfreie Stadt	0.18
-197	08225	Neckar-Odenwald-Kreis	0.21
-198	08226	Rhein-Neckar-Kreis	0.21
-199	08231	Pforzheim, kreisfreie Stadt	0.2
-200	08235	Calw, Landkreis	0.21
-201	08236	Enzkreis	0.21
-202	08237	Freudenstadt, Landkreis	0.2
-203	08311	Freiburg im Breisgau, kreisfreie Stadt	0.16
-204	08315	Breisgau-Hochschwarzwald, Landkreis	0.21
-205	08316	Emmendingen, Landkreis	0.21
-206	08317	Ortenaukreis	0.21
-207	08325	Rottweil, Landkreis	0.21
-208	08326	Schwarzwald-Baar-Kreis	0.22
-209	08327	Tuttlingen, Landkreis	0.19
-210	08335	Konstanz, Landkreis	0.21
-211	08336	Lörrach, Landkreis	0.2
-212	08337	Waldshut, Landkreis	0.21
-213	08415	Reutlingen, Landkreis	0.2
-214	08416	Tübingen, Landkreis	0.17
-215	08417	Zollernalbkreis	0.22
-216	08421	Ulm, kreisfreie Stadt	0.18
-217	08425	Alb-Donau-Kreis	0.19
-218	08426	Biberach, Landkreis	0.18
-219	08435	Bodenseekreis	0.22
-220	08436	Ravensburg, Landkreis	0.2
-221	08437	Sigmaringen, Landkreis	0.2
-222	09161	Ingolstadt, kreisfreie Stadt	0.18
-223	09162	München, kreisfreie Stadt	0.18
-224	09163	Rosenheim, kreisfreie Stadt	0.2
-225	09171	Altötting, Landkreis	0.22
-226	09172	Berchtesgadener Land, Landkreis	0.24
-227	09173	Bad Tölz-Wolfratshausen, Landkreis	0.21
-228	09174	Dachau, Landkreis	0.18
-229	09175	Ebersberg, Landkreis	0.19
-230	09176	Eichstätt, Landkreis	0.17
-231	09177	Erding, Landkreis	0.17
-232	09178	Freising, Landkreis	0.16
-233	09179	Fürstenfeldbruck, Landkreis	0.22
-234	09180	Garmisch-Partenkirchen, Landkreis	0.25
-235	09181	Landsberg am Lech, Landkreis	0.2
-236	09182	Miesbach, Landkreis	0.23
-237	09183	Mühldorf am Inn, Landkreis	0.2
-238	09184	München, Landkreis	0.2
-239	09185	Neuburg-Schrobenhausen, Landkreis	0.19
-240	09186	Pfaffenhofen an der Ilm, Landkreis	0.18
-241	09187	Rosenheim, Landkreis	0.21
-242	09188	Starnberg, Landkreis	0.23
-243	09189	Traunstein, Landkreis	0.23
-244	09190	Weilheim-Schongau, Landkreis	0.21
-245	09261	Landshut, kreisfreie Stadt	0.21
-246	09262	Passau, kreisfreie Stadt	0.21
-247	09263	Straubing, kreisfreie Stadt	0.21
-248	09271	Deggendorf, Landkreis	0.2
-249	09272	Freyung-Grafenau, Landkreis	0.21
-250	09273	Kelheim, Landkreis	0.18
-251	09274	Landshut, Landkreis	0.18
-252	09275	Passau, Landkreis	0.22
-253	09276	Regen, Landkreis	0.22
-254	09277	Rottal-Inn, Landkreis	0.21
-255	09278	Straubing-Bogen, Landkreis	0.19
-256	09279	Dingolfing-Landau, Landkreis	0.19
-257	09361	Amberg, kreisfreie Stadt	0.23
-258	09362	Regensburg, kreisfreie Stadt	0.17
-259	09363	Weiden in der Oberpfalz, kreisfreie Stadt	0.23
-260	09371	Amberg-Sulzbach, Landkreis	0.21
-261	09372	Cham, Landkreis	0.21
-262	09373	Neumarkt in der Oberpfalz, Landkreis	0.19
-263	09374	Neustadt an der Waldnaab, Landkreis	0.21
-264	09375	Regensburg, Landkreis	0.19
-265	09376	Schwandorf, Landkreis	0.2
-266	09377	Tirschenreuth, Landkreis	0.22
-267	09461	Bamberg, kreisfreie Stadt	0.19
-268	09462	Bayreuth, kreisfreie Stadt	0.22
-269	09463	Coburg, kreisfreie Stadt	0.23
-270	09464	Hof, kreisfreie Stadt	0.24
-271	09471	Bamberg, Landkreis	0.19
-272	09472	Bayreuth, Landkreis	0.22
-273	09473	Coburg, Landkreis	0.23
-274	09474	Forchheim, Landkreis	0.2
-275	09475	Hof, Landkreis	0.26
-276	09476	Kronach, Landkreis	0.24
-277	09477	Kulmbach, Landkreis	0.24
-278	09478	Lichtenfels, Landkreis	0.22
-279	09479	Wunsiedel im Fichtelgebirge, Landkreis	0.26
-280	09561	Ansbach, kreisfreie Stadt	0.21
-281	09562	Erlangen, kreisfreie Stadt	0.18
-282	09563	Fürth, kreisfreie Stadt	0.18
-283	09564	Nürnberg, kreisfreie Stadt	0.2
-284	09565	Schwabach, kreisfreie Stadt	0.22
-285	09571	Ansbach, Landkreis	0.2
-286	09572	Erlangen-Höchstadt, Landkreis	0.2
-287	09573	Fürth, Landkreis	0.23
-288	09574	Nürnberger Land, Landkreis	0.22
-289	09575	Neustadt an der Aisch-Bad Windsheim, Landkreis	0.21
-290	09576	Roth, Landkreis	0.21
-291	09577	Weißenburg-Gunzenhausen, Landkreis	0.22
-292	09661	Aschaffenburg, kreisfreie Stadt	0.21
-293	09662	Schweinfurt, kreisfreie Stadt	0.24
-294	09663	Würzburg, kreisfreie Stadt	0.2
-295	09671	Aschaffenburg, Landkreis	0.21
-296	09672	Bad Kissingen, Landkreis	0.24
-297	09673	Rhön-Grabfeld, Landkreis	0.22
-298	09674	Haßberge, Landkreis	0.2
-299	09675	Kitzingen, Landkreis	0.2
-300	09676	Miltenberg, Landkreis	0.21
-301	09677	Main-Spessart, Landkreis	0.22
-302	09678	Schweinfurt, Landkreis	0.21
-303	09679	Würzburg, Landkreis	0.21
-304	09761	Augsburg, kreisfreie Stadt	0.2
-305	09762	Kaufbeuren, kreisfreie Stadt	0.23
-306	09763	Kempten (Allgäu), kreisfreie Stadt	0.22
-307	09764	Memmingen, kreisfreie Stadt	0.22
-308	09771	Aichach-Friedberg, Landkreis	0.2
-309	09772	Augsburg, Landkreis	0.2
-310	09773	Dillingen an der Donau, Landkreis	0.2
-311	09774	Günzburg, Landkreis	0.19
-312	09775	Neu-Ulm, Landkreis	0.2
-313	09776	Lindau (Bodensee), Landkreis	0.23
-314	09777	Ostallgäu, Landkreis	0.21
-315	09778	Unterallgäu, Landkreis	0.21
-316	09779	Donau-Ries, Landkreis	0.2
-317	09780	Oberallgäu, Landkreis	0.23
-318	10041	Regionalverband Saarbrücken, Landkreis	0.23
-319	10042	Merzig-Wadern, Landkreis	0.22
-320	10043	Neunkirchen, Landkreis	0.24
-321	10044	Saarlouis, Landkreis	0.24
-322	10045	Saarpfalz-Kreis	0.25
-323	10046	Sankt Wendel, Landkreis	0.24
-324	11000	Berlin, kreisfreie Stadt	0.19
-325	12051	Brandenburg an der Havel, kreisfreie Stadt	0.27
-326	12052	Cottbus, kreisfreie Stadt	0.25
-327	12053	Frankfurt (Oder), kreisfreie Stadt	0.25
-328	12054	Potsdam, kreisfreie Stadt	0.2
-329	12060	Barnim, Landkreis	0.23
-330	12061	Dahme-Spreewald, Landkreis	0.24
-331	12062	Elbe-Elster, Landkreis	0.27
-332	12063	Havelland, Landkreis	0.22
-333	12064	Märkisch-Oderland, Landkreis	0.23
-334	12065	Oberhavel, Landkreis	0.22
-335	12066	Oberspreewald-Lausitz, Landkreis	0.28
-336	12067	Oder-Spree, Landkreis	0.26
-337	12068	Ostprignitz-Ruppin, Landkreis	0.25
-338	12069	Potsdam-Mittelmark, Landkreis	0.22
-339	12070	Prignitz, Landkreis	0.27
-340	12071	Spree-Neiße, Landkreis	0.27
-341	12072	Teltow-Fläming, Landkreis	0.22
-342	12073	Uckermark, Landkreis	0.27
-343	13003	Rostock, kreisfreie Stadt	0.24
-344	13004	Schwerin, kreisfreie Stadt	0.25
-345	13071	Mecklenburgische Seenplatte, Landkreis	0.25
-346	13072	Rostock, Landkreis	0.23
-347	13073	Vorpommern-Rügen, Landkreis	0.25
-348	13074	Nordwestmecklenburg, Landkreis	0.23
-349	13075	Vorpommern-Greifswald, Landkreis	0.25
-350	13076	Ludwigslust-Parchim, Landkreis	0.23
-351	14511	Chemnitz, kreisfreie Stadt	0.28
-352	14521	Erzgebirgskreis	0.29
-353	14522	Mittelsachsen, Landkreis	0.28
-354	14523	Vogtlandkreis	0.29
-355	14524	Zwickau, Landkreis	0.29
-356	14612	Dresden, kreisfreie Stadt	0.22
-357	14625	Bautzen, Landkreis	0.27
-358	14626	Görlitz, Landkreis	0.29
-359	14627	Meißen, Landkreis	0.27
-360	14628	Sächsische Schweiz-Osterzgebirge, Landkreis	0.27
-361	14713	Leipzig, kreisfreie Stadt	0.21
-362	14729	Leipzig, Landkreis	0.26
-363	14730	Nordsachsen, Landkreis	0.25
-364	15001	Dessau-Roßlau, kreisfreie Stadt	0.31
-365	15002	Halle (Saale), kreisfreie Stadt	0.24
-366	15003	Magdeburg, kreisfreie Stadt	0.24
-367	15081	Altmarkkreis Salzwedel	0.24
-368	15082	Anhalt-Bitterfeld, Landkreis	0.27
-369	15083	Börde, Landkreis	0.23
-370	15084	Burgenlandkreis	0.27
-371	15085	Harz, Landkreis	0.27
-372	15086	Jerichower Land, Landkreis	0.25
-373	15087	Mansfeld-Südharz, Landkreis	0.29
-374	15088	Saalekreis	0.25
-375	15089	Salzlandkreis	0.27
-376	15090	Stendal, Landkreis	0.25
-377	15091	Wittenberg, Landkreis	0.28
-378	16051	Erfurt, kreisfreie Stadt	0.22
-379	16052	Gera, kreisfreie Stadt	0.28
-380	16053	Jena, kreisfreie Stadt	0.21
-381	16054	Suhl, kreisfreie Stadt	0.31
-382	16055	Weimar, kreisfreie Stadt	0.23
-383	16056	Eisenach, kreisfreie Stadt	0.26
-384	16061	Eichsfeld, Landkreis	0.23
-385	16062	Nordhausen, Landkreis	0.26
-386	16063	Wartburgkreis	0.25
-387	16064	Unstrut-Hainich-Kreis	0.25
-388	16065	Kyffhäuserkreis	0.27
-389	16066	Schmalkalden-Meiningen, Landkreis	0.26
-390	16067	Gotha, Landkreis	0.25
-391	16068	Sömmerda, Landkreis	0.24
-392	16069	Hildburghausen, Landkreis	0.24
-393	16070	Ilm-Kreis	0.25
-394	16071	Weimarer Land, Landkreis	0.23
-395	16072	Sonneberg, Landkreis	0.27
-396	16073	Saalfeld-Rudolstadt, Landkreis	0.28
-397	16074	Saale-Holzland-Kreis	0.25
-398	16075	Saale-Orla-Kreis	0.26
-399	16076	Greiz, Landkreis	0.29
-400	16077	Altenburger Land, Landkreis	0.3
-401	11001	Berlin, kreisfreie Stadt	0.19
-402	11002	Berlin, kreisfreie Stadt	0.19
-403	11003	Berlin, kreisfreie Stadt	0.19
-404	11004	Berlin, kreisfreie Stadt	0.19
-405	11005	Berlin, kreisfreie Stadt	0.19
-406	11006	Berlin, kreisfreie Stadt	0.19
-407	11007	Berlin, kreisfreie Stadt	0.19
-408	11008	Berlin, kreisfreie Stadt	0.19
-409	11009	Berlin, kreisfreie Stadt	0.19
-410	11010	Berlin, kreisfreie Stadt	0.19
-411	11011	Berlin, kreisfreie Stadt	0.19
-412	11012	Berlin, kreisfreie Stadt	0.19
+IdLandkreis	Fract_Over_65
+01001	0.2
+01002	0.18
+01003	0.23
+01004	0.23
+01051	0.25
+01053	0.22
+01054	0.24
+01055	0.27
+01056	0.22
+01057	0.26
+01058	0.23
+01059	0.24
+01060	0.22
+01061	0.23
+01062	0.23
+02000	0.18
+03101	0.21
+03102	0.23
+03103	0.22
+03151	0.2
+03153	0.27
+03154	0.23
+03155	0.25
+03157	0.21
+03158	0.23
+03159	0.22
+03241	0.21
+03251	0.22
+03252	0.25
+03254	0.23
+03255	0.26
+03256	0.22
+03257	0.24
+03351	0.23
+03352	0.25
+03353	0.22
+03354	0.28
+03355	0.2
+03356	0.23
+03357	0.21
+03358	0.22
+03359	0.21
+03360	0.25
+03361	0.22
+03401	0.22
+03402	0.21
+03403	0.19
+03404	0.19
+03405	0.26
+03451	0.23
+03452	0.23
+03453	0.16
+03454	0.19
+03455	0.26
+03456	0.2
+03457	0.21
+03458	0.21
+03459	0.2
+03460	0.16
+03461	0.23
+03462	0.24
+04011	0.21
+04012	0.22
+05111	0.19
+05112	0.2
+05113	0.22
+05114	0.22
+05116	0.21
+05117	0.24
+05119	0.22
+05120	0.22
+05122	0.21
+05124	0.21
+05154	0.2
+05158	0.24
+05162	0.22
+05166	0.22
+05170	0.23
+05314	0.18
+05315	0.17
+05316	0.22
+05334	0.2
+05358	0.21
+05362	0.21
+05366	0.21
+05370	0.21
+05374	0.21
+05378	0.23
+05382	0.21
+05512	0.22
+05513	0.21
+05515	0.17
+05554	0.19
+05558	0.2
+05562	0.22
+05566	0.2
+05570	0.21
+05711	0.2
+05754	0.19
+05758	0.22
+05762	0.22
+05766	0.22
+05770	0.22
+05774	0.18
+05911	0.22
+05913	0.2
+05914	0.22
+05915	0.21
+05916	0.22
+05954	0.24
+05958	0.22
+05962	0.22
+05966	0.2
+05970	0.21
+05974	0.21
+05978	0.23
+06411	0.17
+06412	0.16
+06413	0.17
+06414	0.2
+06431	0.22
+06432	0.21
+06433	0.19
+06434	0.23
+06435	0.21
+06436	0.21
+06437	0.23
+06438	0.21
+06439	0.23
+06440	0.21
+06531	0.19
+06532	0.22
+06533	0.21
+06534	0.19
+06535	0.24
+06611	0.2
+06631	0.21
+06632	0.24
+06633	0.25
+06634	0.23
+06635	0.23
+06636	0.25
+07111	0.22
+07131	0.24
+07132	0.22
+07133	0.23
+07134	0.24
+07135	0.24
+07137	0.22
+07138	0.22
+07140	0.22
+07141	0.23
+07143	0.21
+07211	0.18
+07231	0.22
+07232	0.2
+07233	0.24
+07235	0.2
+07311	0.23
+07312	0.2
+07313	0.19
+07314	0.19
+07315	0.18
+07316	0.24
+07317	0.25
+07318	0.22
+07319	0.2
+07320	0.23
+07331	0.2
+07332	0.24
+07333	0.21
+07334	0.2
+07335	0.21
+07336	0.24
+07337	0.23
+07338	0.22
+07339	0.2
+07340	0.25
+08111	0.18
+08115	0.2
+08116	0.2
+08117	0.21
+08118	0.2
+08119	0.21
+08121	0.2
+08125	0.19
+08126	0.19
+08127	0.19
+08128	0.22
+08135	0.22
+08136	0.2
+08211	0.26
+08212	0.18
+08215	0.21
+08216	0.21
+08221	0.16
+08222	0.18
+08225	0.21
+08226	0.21
+08231	0.2
+08235	0.21
+08236	0.21
+08237	0.2
+08311	0.16
+08315	0.21
+08316	0.21
+08317	0.21
+08325	0.21
+08326	0.22
+08327	0.19
+08335	0.21
+08336	0.2
+08337	0.21
+08415	0.2
+08416	0.17
+08417	0.22
+08421	0.18
+08425	0.19
+08426	0.18
+08435	0.22
+08436	0.2
+08437	0.2
+09161	0.18
+09162	0.18
+09163	0.2
+09171	0.22
+09172	0.24
+09173	0.21
+09174	0.18
+09175	0.19
+09176	0.17
+09177	0.17
+09178	0.16
+09179	0.22
+09180	0.25
+09181	0.2
+09182	0.23
+09183	0.2
+09184	0.2
+09185	0.19
+09186	0.18
+09187	0.21
+09188	0.23
+09189	0.23
+09190	0.21
+09261	0.21
+09262	0.21
+09263	0.21
+09271	0.2
+09272	0.21
+09273	0.18
+09274	0.18
+09275	0.22
+09276	0.22
+09277	0.21
+09278	0.19
+09279	0.19
+09361	0.23
+09362	0.17
+09363	0.23
+09371	0.21
+09372	0.21
+09373	0.19
+09374	0.21
+09375	0.19
+09376	0.2
+09377	0.22
+09461	0.19
+09462	0.22
+09463	0.23
+09464	0.24
+09471	0.19
+09472	0.22
+09473	0.23
+09474	0.2
+09475	0.26
+09476	0.24
+09477	0.24
+09478	0.22
+09479	0.26
+09561	0.21
+09562	0.18
+09563	0.18
+09564	0.2
+09565	0.22
+09571	0.2
+09572	0.2
+09573	0.23
+09574	0.22
+09575	0.21
+09576	0.21
+09577	0.22
+09661	0.21
+09662	0.24
+09663	0.2
+09671	0.21
+09672	0.24
+09673	0.22
+09674	0.2
+09675	0.2
+09676	0.21
+09677	0.22
+09678	0.21
+09679	0.21
+09761	0.2
+09762	0.23
+09763	0.22
+09764	0.22
+09771	0.2
+09772	0.2
+09773	0.2
+09774	0.19
+09775	0.2
+09776	0.23
+09777	0.21
+09778	0.21
+09779	0.2
+09780	0.23
+10041	0.23
+10042	0.22
+10043	0.24
+10044	0.24
+10045	0.25
+10046	0.24
+11000	0.19
+12051	0.27
+12052	0.25
+12053	0.25
+12054	0.2
+12060	0.23
+12061	0.24
+12062	0.27
+12063	0.22
+12064	0.23
+12065	0.22
+12066	0.28
+12067	0.26
+12068	0.25
+12069	0.22
+12070	0.27
+12071	0.27
+12072	0.22
+12073	0.27
+13003	0.24
+13004	0.25
+13071	0.25
+13072	0.23
+13073	0.25
+13074	0.23
+13075	0.25
+13076	0.23
+14511	0.28
+14521	0.29
+14522	0.28
+14523	0.29
+14524	0.29
+14612	0.22
+14625	0.27
+14626	0.29
+14627	0.27
+14628	0.27
+14713	0.21
+14729	0.26
+14730	0.25
+15001	0.31
+15002	0.24
+15003	0.24
+15081	0.24
+15082	0.27
+15083	0.23
+15084	0.27
+15085	0.27
+15086	0.25
+15087	0.29
+15088	0.25
+15089	0.27
+15090	0.25
+15091	0.28
+16051	0.22
+16052	0.28
+16053	0.21
+16054	0.31
+16055	0.23
+16056	0.26
+16061	0.23
+16062	0.26
+16063	0.25
+16064	0.25
+16065	0.27
+16066	0.26
+16067	0.25
+16068	0.24
+16069	0.24
+16070	0.25
+16071	0.23
+16072	0.27
+16073	0.28
+16074	0.25
+16075	0.26
+16076	0.29
+16077	0.3
+11001	0.19
+11002	0.19
+11003	0.19
+11004	0.19
+11005	0.19
+11006	0.19
+11007	0.19
+11008	0.19
+11009	0.19
+11010	0.19
+11011	0.19
+11012	0.19

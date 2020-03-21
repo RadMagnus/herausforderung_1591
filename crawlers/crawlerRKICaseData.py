@@ -57,12 +57,13 @@ class CrawlerRKICaseData:  # TODO: Specify the class name in relation to the sou
 
             new_response = "\n".join(new_response)
             df = pd.read_csv(StringIO(new_response), sep=",")
+            df = df[df["IdLandkreis"] != "0-1"]
             df = df.astype(
                 {"IdBundesland": int, "Bundesland": str, "Landkreis": str, "Altersgruppe": str, "Geschlecht": str,
-                 "ObjectId": int, "Meldedatum": str, "IdLandkreis": str, "status": str})
+                 "ObjectId": int, "Meldedatum": str, "IdLandkreis": int, "status": str})
 
             outfile = os.path.join("../data/prepared/rki-cases.tsv")
-            df.to_csv(outfile, sep="\t")
+            df.to_csv(outfile, sep="\t", index=False)
 
         except Error:
             return False

@@ -5,12 +5,12 @@ from io import StringIO
 import pandas as pd
 import urllib
 
-class CrawlerDemography1:  # TODO: Specify the class name in relation to the source or content of this dataset
+class CrawlerDemography1:
     """
     Getting information about demography. Currently only data from fraction of over age 65 per LK
     """
 
-    name = 'Demography Crawler 1'  # TODO: Specify the name
+    name = 'Demography Crawler 1'
 
     def __init__(self):
         pass
@@ -30,10 +30,10 @@ class CrawlerDemography1:  # TODO: Specify the class name in relation to the sou
             df["IdLandkreis"] = df["IdLandkreis"].map(lambda id: "0" + id if len(id) == 4 else id)
             df["Fract_Over_65"] = df['Fract_Over_65'].map(convert_perc_values)
 
-            df = fixBerlin(df)
+            df = fixBerlin(df)[['IdLandkreis', 'Fract_Over_65']]
 
             outfile = os.path.join("../data/prepared/demography_over65.tsv")
-            df.to_csv(outfile, sep="\t")
+            df.to_csv(outfile, sep="\t",index=False)
 
         except Error:
             return False
