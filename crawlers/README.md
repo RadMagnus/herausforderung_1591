@@ -26,5 +26,5 @@ Crawl all (or specific) data sources. Choose one of the corresponding flags:
     {
         'class':     NewCrawlerClass,
         'frequency': 'once | daily'
-    }
+    },
     ```
