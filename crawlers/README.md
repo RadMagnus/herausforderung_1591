@@ -28,3 +28,5 @@ Crawl all (or specific) data sources. Choose one of the corresponding flags:
         'frequency': 'once | daily'
     },
     ```
+    - Verwende `daily`, wenn es eine Datenquelle ist, die sich täglich ändert bzw. erweitert wird
+    - Verwende `once`, wenn sie nur einmal oder sehr selten abgerufen werden soll
