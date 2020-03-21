@@ -26,16 +26,16 @@ class CrawlerDemography1:
             for i in range(19, len(file)):
                 content += file[i] + "\n"
             df = pd.read_csv(StringIO(content), sep=";", dtype=str)
-            df.columns = ['IdLandkreis', 'Name', 'Fract_Over_65']
-            df["IdLandkreis"] = df["IdLandkreis"].map(lambda id: "0" + id if len(id) == 4 else id)
-            df["Fract_Over_65"] = df['Fract_Over_65'].map(convert_perc_values)
+            df.columns = ['id_county', 'county', 'demography_1']
+            df["id_county"] = df["id_county"].map(lambda id: "0" + id if len(id) == 4 else id)
+            df["demography_1"] = df['demography_1'].map(convert_perc_values)
 
-            df = fixBerlin(df)[['IdLandkreis', 'Fract_Over_65']]
+            df = fixBerlin(df)
 
             outfile = os.path.join("../data/prepared/demography_over65.tsv")
             df.to_csv(outfile, sep="\t",index=False)
 
-        except Error:
+        except:
             return False
         return True
 
@@ -46,11 +46,11 @@ def convert_perc_values(perc_str):
 
 
 def fixBerlin(df):
-    entry = df[df["IdLandkreis"] == "11000"]
+    entry = df[df["id_county"] == "11000"]
     fix = [[]]
     for i in range(1, 13):
-        df = df.append(pd.DataFrame([[str(i + 11000), entry.iloc[0]["Name"], entry.iloc[0]["Fract_Over_65"]]],
-                                    columns=['IdLandkreis', 'Name', 'Fract_Over_65']), ignore_index=True)
+        df = df.append(pd.DataFrame([[str(i + 11000), entry.iloc[0]["county"], entry.iloc[0]["demography_1"]]],
+                                    columns=['id_county', 'county', 'demography_1']), ignore_index=True)
     return df
 
 

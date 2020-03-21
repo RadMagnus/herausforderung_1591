@@ -1,4 +1,4 @@
-IdBundesland	Bundesland	Landkreis	Altersgruppe	Geschlecht	ObjectId	Meldedatum	IdLandkreis	status
+id_state	state	county	agegroups	sex	object_id	date	id_county	status
 15	Sachsen-Anhalt	SK Magdeburg	A35-A59	M	154936	2020-03-18	15003	infected
 15	Sachsen-Anhalt	SK Magdeburg	A35-A59	M	154936	2020-03-18	15003	infected
 15	Sachsen-Anhalt	SK Magdeburg	A35-A59	W	154937	2020-03-12	15003	infected
