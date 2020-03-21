@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-import sys, os
-import time
+
+import os
 from io import StringIO
-import requests
 import pandas as pd
 import urllib
 
@@ -33,7 +32,7 @@ class CrawlerDemography1:  # TODO: Specify the class name in relation to the sou
 
             df = fixBerlin(df)
 
-            outfile = os.path.join("../data/raw/demography_over65.tsv")
+            outfile = os.path.join("../data/prepared/demography_over65.tsv")
             df.to_csv(outfile, sep="\t")
 
         except Error:

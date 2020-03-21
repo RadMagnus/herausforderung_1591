@@ -1,17 +1,16 @@
 #!/usr/bin/python3
-import sys, os
-import time
+
+import os
 from io import StringIO
 import requests
 import pandas as pd
-import urllib
 
 class CrawlerRKICaseData:  # TODO: Specify the class name in relation to the source or content of this dataset
     """
     Crawler for the Robert-Koch-Institut Case Reports
     """
 
-    name = 'RKI Case Data Crawler'  # TODO: Specify the name
+    name = 'RKI Case Data Crawler'
 
     def __init__(self):
         pass
@@ -62,7 +61,7 @@ class CrawlerRKICaseData:  # TODO: Specify the class name in relation to the sou
                 {"IdBundesland": int, "Bundesland": str, "Landkreis": str, "Altersgruppe": str, "Geschlecht": str,
                  "ObjectId": int, "Meldedatum": str, "IdLandkreis": str, "status": str})
 
-            outfile = os.path.join("../data/raw/rki-cases.tsv")
+            outfile = os.path.join("../data/prepared/rki-cases.tsv")
             df.to_csv(outfile, sep="\t")
 
         except Error:
