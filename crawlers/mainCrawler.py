@@ -5,7 +5,7 @@ import argparse
 from crawlerExample import CrawlerExample
 from crawlerRKICaseData import CrawlerRKICaseData
 from crawlerDemography1 import CrawlerDemography1
-
+from crawlerDensity import CrawlerDensity
 
 class MainCrawler:
     crawler_dict = [
@@ -15,6 +15,10 @@ class MainCrawler:
         },
         {
             'class': CrawlerDemography1,
+            'frequency': 'once'
+        },
+        {
+            'class': CrawlerDensity,
             'frequency': 'once'
         },
     ]
