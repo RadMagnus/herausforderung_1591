@@ -8,5 +8,5 @@ Vorschlag:
 3. Wir fügen diese beiden Datenquellen zusammen. Dann haben wir doch schon eine gute Ausgangslage
 4. Prognose und Visualisierung
 
-### Ressources spreadsheet:
+### Ressources:
 [google-docs](https://docs.google.com/spreadsheets/d/1X3mhpgFdC4NTpJVI4hHQWK31CsdXDF0YtBeoBaA2zRc/edit#gid=1349844862)
