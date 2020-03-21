@@ -1,0 +1,17 @@
+# CLion
+.idea/
+
+# Eclipse
+.cproject
+.project
+/Debug/
+.settings
+
+# Python (for lint)
+*.pyc
+
+# Temporary files
+*~
+
+# Mac 
+.DS_Store
