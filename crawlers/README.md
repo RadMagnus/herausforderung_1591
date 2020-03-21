@@ -22,7 +22,7 @@ Crawl all (or specific) data sources. Choose one of the corresponding flags:
     
 5. In `mainCrawler.py` erweitere `crawler_dict` um einen Eintrag zum neunen Crawler:
     
-    ```json
+    ```
     {
         'class':     NewCrawlerClass,
         'frequency': 'once | daily'
