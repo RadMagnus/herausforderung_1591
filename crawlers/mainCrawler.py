@@ -11,7 +11,7 @@ class MainCrawler:
         {
             'class':     CrawlerExample,
             'frequency': 'once'
-        }
+        },
         # TODO: Add an entry for your Crawler Class here
     ]
 
@@ -42,7 +42,8 @@ class MainCrawler:
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='crawl all (or specific) data sources')
+    parser = argparse.ArgumentParser(description='Crawl all (or specific) data sources. ' +
+                                                 'Choose one of the corresponding flags.')
     parser.add_argument('-a', '--all', action='store_true',
                         help='crawl ALL data sources')
     parser.add_argument('-d', '--daily', action='store_true',
@@ -58,3 +59,5 @@ if __name__ == '__main__':
         mc.crawl('daily')
     elif args.once:
         mc.crawl('once')
+    else:
+        parser.print_help()
