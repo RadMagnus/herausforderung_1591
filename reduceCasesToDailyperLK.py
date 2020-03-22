@@ -31,7 +31,7 @@ def reduceCases(rki_cases, initDfColumns):
                                 'demography_1': df['demography_1'].iloc[0], 
                                 'no_cases': df.shape[0], 
                                 'cases_m': len(df[df['sex'] == 'M']),
-                                'cases_w':len(df[df['sex'] == 'w']), 
+                                'cases_w':len(df[df['sex'] == 'W']), 
                                 'A00-A04':len(df[df['agegroups'] == 'A00-A04']), 
                                 'A05-A14':len(df[df['agegroups'] == 'A05-A14']), 
                                 'A15-A34':len(df[df['agegroups'] == 'A15-A34']), 
