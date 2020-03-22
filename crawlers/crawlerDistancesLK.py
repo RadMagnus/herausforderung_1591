@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-
 import requests
 import json
 import matplotlib.pyplot as plt
 import csv
+import geopy.distance
 
 
 class CrawlerDistancesLK:
@@ -94,6 +94,16 @@ class CrawlerDistancesLK:
         #         else:
         #             print('Error')
         #
+        # # Provide shortcuts to important geo locations and delete 'osm' tag
+        # for lk_key, lk_val in lk_dict.items():
+        #     lk_val['lat_min'] = lk_val['osm']['bounds']['minlat']
+        #     lk_val['lat_max'] = lk_val['osm']['bounds']['maxlat']
+        #     lk_val['lon_min'] = lk_val['osm']['bounds']['minlon']
+        #     lk_val['lon_max'] = lk_val['osm']['bounds']['maxlon']
+        #     lk_val['lat_c'] = lk_val['lat_min'] + (lk_val['lat_max'] - lk_val['lat_min']) / 2
+        #     lk_val['lon_c']=lk_val['lon_min'] + (lk_val['lon_max'] - lk_val['lon_min']) / 2
+        #     del lk_val['osm']
+        #
         # # Save optimized lk_dict to JSON file
         # print('Save optimized lk_dict to JSON file...')
         # with open(optim_json_path, 'w') as f:
@@ -104,31 +114,51 @@ class CrawlerDistancesLK:
         with open(optim_json_path, 'r') as file:
             lk_dict_optim = json.load(file)
 
-        plt.figure()
-        for lk_key, lk_val in lk_dict_optim.items():
-            name = lk_val['name']
-            lat_min = lk_val['osm']['bounds']['minlat']
-            lat_max = lk_val['osm']['bounds']['maxlat']
-            lon_min = lk_val['osm']['bounds']['minlon']
-            lon_max = lk_val['osm']['bounds']['maxlon']
+        # # Visualize Bounding Boxes of Landkreise
+        # plt.figure()
+        # for lk_key, lk_val in lk_dict_optim.items():
+        #     coord = [[lk_val['lon_min'], lk_val['lat_min']],
+        #              [lk_val['lon_min'], lk_val['lat_max']],
+        #              [lk_val['lon_max'], lk_val['lat_max']],
+        #              [lk_val['lon_max'], lk_val['lat_min']],
+        #              [lk_val['lon_min'], lk_val['lat_min']]]
+        #     xs, ys = zip(*coord)  # create lists of x and y values
+        #     plt.plot(xs, ys)
+        #
+        #     plt.text(lk_val['lon_c'], lk_val['lat_c'], lk_val['name'], horizontalalignment='center', verticalalignment='center')
+        #
+        #     print('{}'.format(lk_key))
+        #     print('  - name: {}'.format(lk_val['name']))
+        #     print('  - lat_min: {}'.format(lk_val['lat_min']))
+        #     print('  - lat_max: {}'.format(lk_val['lat_max']))
+        #     print('  - lon_min: {}'.format(lk_val['lon_min']))
+        #     print('  - lon_max: {}'.format(lk_val['lon_max']))
+        #     print('  - lat_center: {}'.format(lk_val['lat_c']))
+        #     print('  - lon_center: {}'.format(lk_val['lat_c']))
+        # plt.show()
 
-            lat_c = lat_min + (lat_max - lat_min) / 2
-            lon_c = lon_min + (lon_max - lon_min) / 2
+        # Generate distance matrix
+        print("Generate distance matrix...")
+        distance_matrix = [['distance in km'] + [lks for lks in lk_dict_optim]]
+        for lk1_key, lk1_val in lk_dict_optim.items():
+            row = [lk1_key]
+            coord1 = (lk1_val['lat_c'], lk1_val['lon_c'])
+            for lk2_key, lk2_val in lk_dict_optim.items():
+                coord2 = (lk2_val['lat_c'], lk2_val['lon_c'])
 
-            coord = [[lon_min, lat_min], [lon_min, lat_max], [lon_max, lat_max], [lon_max, lat_min], [lon_min, lat_min]]
-            xs, ys = zip(*coord)  # create lists of x and y values
-            plt.plot(xs, ys)
+                if lk1_key == lk2_key:
+                    dist = 0.0
+                else:
+                    dist = geopy.distance.vincenty(coord1, coord2).km
 
-            plt.text(lon_c, lat_c, name, horizontalalignment='center', verticalalignment='center',)
+                print('{} <-> {}: {}'.format(lk1_val['name'], lk2_val['name'], dist))
+                row.append(dist)
+            distance_matrix.append(row)
 
-            print('{}'.format(lk_key))
-            print('  - name: {}'.format(name))
-            print('  - minlat: {}'.format(lat_min))
-            print('  - maxlat: {}'.format(lat_max))
-            print('  - minlon: {}'.format(lon_min))
-            print('  - maxlon: {}'.format(lon_max))
-        plt.show()
-
+        # Save distance matrix
+        with open('../data/prepared/lk_distance_matrix.tsv', 'w', newline='') as tsvfile:
+            csv_writer = csv.writer(tsvfile, delimiter='\t', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            csv_writer.writerows(distance_matrix)
         return True
 
     def match_lk_key(self, key, lk_dict, lk):
