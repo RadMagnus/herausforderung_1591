@@ -34,7 +34,7 @@ Crawl all (or specific) data sources. Choose one of the corresponding flags:
 # Crawler for Distanzen zwischen den Landkreisen
 Work in Progress!
 
-*Idee:* Um jedem Landkreis wird eine Bounding Box gezogen, den Mittelpunkt bestimmt, und die Entfernungen zwischen den Punkten in eine Matrix eingetragen.
-So kann der Einfluss der benachbarten Landkreise auf die eigenen Fallzahlen berücksichtigt werden.
+**Idee:** Um jedem Landkreis wird eine Bounding Box gezogen, der Mittelpunkt bestimmt, und dann wird die Entfernungen zwischen den Punkten in eine Matrix eingetragen.
+So kann die mit dem Abständen gewichteten Fallzahlen der benachbarten Landkreise bei der Betrachtung der Situation in einem Landkreis berücksichtigt werden. 
 
 ![plot Landkreise Bounding Boxes](crawlerDistancesLK.png)
