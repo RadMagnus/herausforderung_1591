@@ -30,3 +30,11 @@ Crawl all (or specific) data sources. Choose one of the corresponding flags:
     ```
     - Verwende `daily`, wenn es eine Datenquelle ist, die sich täglich ändert bzw. erweitert wird
     - Verwende `once`, wenn sie nur einmal oder sehr selten abgerufen werden soll
+
+# Crawler for Distanzen zwischen den Landkreisen
+Work in Progress!
+
+*Idee:* Um jedem Landkreis wird eine Bounding Box gezogen, den Mittelpunkt bestimmt, und die Entfernungen zwischen den Punkten in eine Matrix eingetragen.
+So kann der Einfluss der benachbarten Landkreise auf die eigenen Fallzahlen berücksichtigt werden.
+
+![plot Landkreise Bounding Boxes](crawlerDistancesLK.png)
