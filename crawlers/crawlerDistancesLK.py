@@ -147,9 +147,10 @@ class CrawlerDistancesLK:
                 coord2 = (lk2_val['lat_c'], lk2_val['lon_c'])
 
                 if lk1_key == lk2_key:
-                    dist = 0.0
+                    dist = 0
                 else:
                     dist = geopy.distance.vincenty(coord1, coord2).km
+                    dist = int(round(dist, 0))
 
                 print('{} <-> {}: {}'.format(lk1_val['name'], lk2_val['name'], dist))
                 row.append(dist)

@@ -5,7 +5,8 @@ from io import StringIO
 import requests
 import pandas as pd
 
-class CrawlerRKICaseData:  # TODO: Specify the class name in relation to the source or content of this dataset
+
+class CrawlerRKICaseData:
     """
     Crawler for the Robert-Koch-Institut Case Reports
     """
@@ -16,7 +17,6 @@ class CrawlerRKICaseData:  # TODO: Specify the class name in relation to the sou
         pass
 
     def crawl(self):
-
         try:
 
             url = "https://opendata.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0.csv"
@@ -33,6 +33,9 @@ class CrawlerRKICaseData:  # TODO: Specify the class name in relation to the sou
             header = response[0].split(",")
             del header[5]
             del header[5]
+            del header[8]
+            del header[8]
+            del header[8]
             header.append("status")
             header = ",".join(header)
 
@@ -49,6 +52,9 @@ class CrawlerRKICaseData:  # TODO: Specify the class name in relation to the sou
 
                 del r_arr[5]
                 del r_arr[5]
+                del r_arr[8]
+                del r_arr[8]
+                del r_arr[8]
 
                 for i in range(num_cases):
                     new_response.append(",".join(r_arr + ["infected"]))
@@ -57,16 +63,17 @@ class CrawlerRKICaseData:  # TODO: Specify the class name in relation to the sou
 
             new_response = "\n".join(new_response)
             df = pd.read_csv(StringIO(new_response), sep=",")
-            df.columns = ['id_state', 'state', 'county','agegroups','sex','object_id','date','id_county','status']
+            df.columns = ['id_state', 'state', 'county', 'agegroup', 'sex', 'object_id', 'date', 'id_county', 'status']
             df = df[df["id_county"] != "0-1"]
             df = df.astype(
-                {"id_state": int, "state": str, "county": str, "agegroups": str, "sex": str,
+                {"id_state": int, "state": str, "county": str, "agegroup": str, "sex": str,
                  "object_id": int, "date": str, "id_county": int, "status": str})
 
             outfile = os.path.join("../data/crawled/rki-cases.tsv")
             df.to_csv(outfile, sep="\t", index=False)
 
-        except:
+        except Exception as e:
+            print(e)
             return False
         return True
 

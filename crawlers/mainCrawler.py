@@ -2,10 +2,12 @@
 
 import argparse
 
-from crawlerExample import CrawlerExample
-from crawlerRKICaseData import CrawlerRKICaseData
-from crawlerDemography1 import CrawlerDemography1
-from crawlerDensity import CrawlerDensity
+# from crawlers.crawlerExample import CrawlerExample
+from crawlers.crawlerRKICaseData import CrawlerRKICaseData
+from crawlers.crawlerDemography1 import CrawlerDemography1
+from crawlers.crawlerDensity import CrawlerDensity
+from crawlers.crawlerDistancesLK import CrawlerDistancesLK
+
 
 class MainCrawler:
     crawler_dict = [
@@ -14,11 +16,15 @@ class MainCrawler:
             'frequency': 'daily'
         },
         {
-            'class': CrawlerDemography1,
+            'class':     CrawlerDemography1,
             'frequency': 'once'
         },
         {
-            'class': CrawlerDensity,
+            'class':     CrawlerDensity,
+            'frequency': 'once'
+        },
+        {
+            'class':     CrawlerDistancesLK,
             'frequency': 'once'
         },
     ]
