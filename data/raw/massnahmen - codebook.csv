@@ -1,0 +1,23 @@
+Variable,Beschreibung,Kodierung,Hinweis
+author,Name des jeweiligen Datenkollektors,String,
+country,Land,String,
+state,Staat,String,
+city_or_region,Stadt oder Region,String,
+country_iso,"Ländercodes nach ISO 3166, Alpha 2 (zweistellig)",String,https://de.wikipedia.org/wiki/ISO-3166-1-Kodierliste
+adm1,,integer,
+adm2,,integer,
+date,Datum des Inkrafttretens einer Maßnahme,Numeric,ISO8601 JJJJ-MM-TT
+border_control,"Einführung von Grenzkontrollen 0=Nein, 1=Ja",Binary,
+home_office,"Einführung der Arbeit von zu Hause (staatlich) 0=Nein, 1=Ja",Binary,(nur für gesetzlich angeordnetes Home Office)
+closure_leisureandbars,"Schließung von Bars und Freizeitaktivitäten 0=Nein, 1=Ja",Binary,
+shutdown_publictransport,Schließung von öffentlichen Verkehrsmittel,Binary,
+lockdown,"Ausgangssperre 0=Nein, 1=Ja",Binary,
+schools_closed,"Schul-, Kita- und Universitätsschliessungen 0=Nein, 1=Ja",Binary,
+traveller_quarantine,"Einreisende müssen in Quarantäne 0=Nein, 1=Ja",Binary,
+primary_residence,"Bürger sollen zu ihrem Hauptwohnsitz zurückkehren 0=Nein, 1=Ja",Binary,
+test_limitations,"Test auf Covid-19 nur an bestimmten Personengruppen 0=Nein, 1=Ja",Binary,
+ban_events_over_1000,Verbot von Veranstaltungen mit mehr als 1000 Teilnehmern,Binary,
+misc,Zusätzliche Informationen,String,
+source,Quelle,String,
+compliance_estimate,,,
+compliance_source,,,
